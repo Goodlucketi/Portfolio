@@ -1,5 +1,12 @@
 <script setup>
-
+    import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+    import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+    import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+    import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+    import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+    import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+    import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+    import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
@@ -10,13 +17,13 @@
                 <p class="py-2 my-2"><span>Email: </span><br>goodlucketim94@gmail.com</p>
                 <p class="py-2 my-2"><span>Phone: </span><br>+234-9066600060</p>
             </div>
-            <div class="socials py w-4/12">
-                <p>Facebook</p>
-                <p>X</p>
-                <p>Whatsapp</p>
-                <p>Instagram</p>
-                <p>LinkedIn</p>
-                <p>TikTok</p>
+            <div class="socials flex gap-5 py w-4/12">
+                <p><a href="https://www.facebook.com/goodlucketi"><FontAwesomeIcon :icon="faFacebook" size="lg"/></a></p>
+                <p><a href="https://www.twitter.com/goodlucketi"><FontAwesomeIcon :icon="faTwitter" size="lg"/></a></p>
+                <p><a href="https://www.linkedin.com/goodlucketi"><FontAwesomeIcon :icon="faLinkedin" size="lg"/></a></p>
+                <p><a href="https://www.whatsapp.com/goodlucketi"><FontAwesomeIcon :icon="faWhatsapp" size="lg"/></a></p>
+                <p><a href="https://www.instagram.com/goodlucketi"><FontAwesomeIcon :icon="faInstagram" size="lg"/></a></p>
+                
             </div>
             <div class="send-message pt-5 w-4/12">
                 <p class="text-xl font-mono">Subscribe to Newsletter</p>
