@@ -5,42 +5,49 @@
 <template>
     <main class="skillss my-30 p-10">
         <h2 class="text-slate-400 p-4 font-bold text-center text-4xl my-10">MY SKILLS</h2>
-        <div class="skills text-slate-200 flex gap-28 justify-center items-center w-10/12 mx-auto">
-            <div class="HTML w-1/12 bg-slate-100 h-60 relative">
-              <div class="skill-rate bg-slate-400 h-56 absolute w-full bottom-0 p-2">
-                <p class="text-slate-900 text-center font-bold">HTML</p>
+        <div class="skills text-white w-7/12 mx-auto">
+            <div class="w-full bg-slate-100 relative mb-4">
+              <div class="skill-rate bg-slate-400 w-11/12 bottom-0">
+                <p class="text-slate-900 p-1 font-bold">HTML</p>
+                <span class="absolute top-0 right-2 text-slate-900">90%</span>
               </div>  
             </div>
 
-            <div class="HTML w-1/12 bg-slate-100 h-60 relative">
-              <div class="skill-rate bg-slate-400 h-48 absolute w-full bottom-0 p-2">
-                <p class="text-slate-900 text-center font-bold">CSS</p>
+            <div class="w-full bg-slate-100 relative mb-4">
+              <div class="skill-rate bg-slate-400 w-[80%] bottom-0">
+                <p class="text-slate-900 p-1 font-bold">CSS</p>
+                <span class="absolute top-0 right-2 text-slate-900">80%</span>
               </div>  
             </div>
 
-            <div class="HTML w-1/12 bg-slate-100 h-60 relative">
-              <div class="skill-rate bg-slate-400 h-52 absolute w-full bottom-0 p-2">
-                <p class="text-slate-900 text-center font-bold">Javascript</p>
+            <div class="w-full bg-slate-100 relative mb-4">
+              <div class="skill-rate bg-slate-400 w-[75%] bottom-0">
+                <p class="text-slate-900 p-1 font-bold">Javascript</p>
+                <span class="absolute top-0 right-2 text-slate-900">75%</span>
               </div>  
             </div>
 
-            <div class="HTML w-1/12 bg-slate-100 h-60 relative">
-              <div class="skill-rate bg-slate-400 h-52 absolute w-full bottom-0 p-2">
-                <p class="text-slate-900 text-center font-bold">Vue Js</p>
+            <div class="w-full bg-slate-100 relative mb-4">
+              <div class="skill-rate bg-slate-400 w-[70%] bottom-0">
+                <p class="text-slate-900 p-1 font-bold">Vue Js</p>
+                <span class="absolute top-0 right-2 text-slate-900">70%</span>
               </div>  
             </div>
 
-            <div class="HTML w-1/12 bg-slate-100 h-60 relative">
-              <div class="skill-rate bg-slate-400 h-3/6 absolute w-full bottom-0 p-2">
-                <p class="text-slate-900 text-center font-bold">PHP</p>
+            <div class="w-full bg-slate-100 relative mb-4">
+              <div class="skill-rate bg-slate-400 w-[30%] bottom-0">
+                <p class="text-slate-900 p-1 font-bold">Node Js</p>
+                <span class="absolute top-0 right-2 text-slate-900">30%</span>
               </div>  
             </div>
 
-            <div class="HTML w-1/12 bg-slate-100 h-60 relative">
-              <div class="skill-rate bg-slate-400 h-2/6 absolute w-full bottom-0 p-2">
-                <p class="text-slate-900 text-center font-bold">Node Js</p>
+            <div class="w-full bg-slate-100 relative mb-4">
+              <div class="skill-rate bg-slate-400 w-6/12 bottom-0">
+                <p class="text-slate-900 p-1 font-bold">PHP</p>
+                <span class="absolute top-0 right-2 text-slate-900">50%</span>
               </div>  
             </div>
+
             
         </div>
     </main>

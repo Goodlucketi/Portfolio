@@ -7,15 +7,18 @@
     import { faInstagram } from '@fortawesome/free-brands-svg-icons'
     import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
     import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+    import { faPhone } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
     <main class="footer my-30 p-5">
         <div class="footer text-slate-100 flex gap-10 justify-center items-center w-10/12 mx-auto bg-slate-900/50 rounded-lg p-5">
             <div class="footer-info py-3 my-5 w-4/12">
-                <p class="py-2">Address: <br> <span><address class="p-0 m-0">Ikot Obio Nkan Road, Obot Idim, Ibesikpo Asutan Akwa Ibom State, Nigeria</address></span></p>
-                <p class="py-2 my-2"><span>Email: </span><br>goodlucketim94@gmail.com</p>
-                <p class="py-2 my-2"><span>Phone: </span><br>+234-9066600060</p>
+                <div class="contact-info py-3 my-5">
+                    <p class="py-2 italic text-lg"><FontAwesomeIcon :icon="faLocationDot" size="lg"/> <span>Ikot Obio Nkan Road, Obot Idim, Ibesikpo Asutan Akwa Ibom State, Nigeria</span></p>
+                    <p class="py-2 my-2 text-lg"><span><FontAwesomeIcon :icon="faEnvelope" size="lg"/> </span> goodlucketim94@gmail.com</p>
+                    <p class="py-2 my-2 text-lg"><span><FontAwesomeIcon :icon="faPhone" size="lg"/> </span> +234-9066600060</p>
+                </div>
             </div>
             <div class="socials flex gap-5 py w-4/12">
                 <p><a href="https://www.facebook.com/goodlucketi"><FontAwesomeIcon :icon="faFacebook" size="lg"/></a></p>
