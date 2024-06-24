@@ -12,15 +12,15 @@
 
 <template>
     <main class="footer my-30 p-5">
-        <div class="footer text-slate-100 flex gap-10 justify-center items-center w-10/12 mx-auto bg-slate-900/50 rounded-lg p-5">
-            <div class="footer-info py-3 my-5 w-4/12">
+        <div class="footer text-slate-100 md:flex md:gap-10 md:justify-center md:items-center md:w-10/12 mx-auto bg-slate-900/50 rounded-lg p-5">
+            <div class="footer-info py-3 my-5 md:w-4/12">
                 <div class="contact-info py-3 my-5">
                     <p class="py-2 italic text-lg"><FontAwesomeIcon :icon="faLocationDot" size="lg"/> <span>Ikot Obio Nkan Road, Obot Idim, Ibesikpo Asutan Akwa Ibom State, Nigeria</span></p>
                     <p class="py-2 my-2 text-lg"><span><FontAwesomeIcon :icon="faEnvelope" size="lg"/> </span> goodlucketim94@gmail.com</p>
                     <p class="py-2 my-2 text-lg"><span><FontAwesomeIcon :icon="faPhone" size="lg"/> </span> +234-9066600060</p>
                 </div>
             </div>
-            <div class="socials flex gap-5 py w-4/12">
+            <div class="socials flex gap-5 py md:w-4/12">
                 <p><a href="https://www.facebook.com/goodlucketi"><FontAwesomeIcon :icon="faFacebook" size="lg"/></a></p>
                 <p><a href="https://www.twitter.com/goodlucketi"><FontAwesomeIcon :icon="faTwitter" size="lg"/></a></p>
                 <p><a href="https://www.linkedin.com/goodlucketi"><FontAwesomeIcon :icon="faLinkedin" size="lg"/></a></p>
@@ -28,7 +28,7 @@
                 <p><a href="https://www.instagram.com/goodlucketi"><FontAwesomeIcon :icon="faInstagram" size="lg"/></a></p>
                 
             </div>
-            <div class="send-message pt-5 w-4/12">
+            <div class="send-message pt-5 md:w-4/12">
                 <p class="text-xl font-mono">Subscribe to Newsletter</p>
                 <label class="relative block">
                     <input type="email" name="newsletter-email" placeholder="Your Email" class="p-3 rounded-md mb-5 bg-transparent border w-full">
