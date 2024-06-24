@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <main class="my-15 md:my-30 p-10">
+    <main class="my-15 md:my-30 md:p-10">
         <h2 class="text-slate-400 p-4 font-bold text-center text-4xl my-10">PORT FOLIO</h2>
 
         <div class="about  md:grid md:grid-cols-3 md:gap-5 md:justify-center md:items-center md:w-10/12 mx-auto">
