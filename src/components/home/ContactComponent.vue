@@ -15,7 +15,7 @@
         <h2 class="text-slate-900 p-4 font-bold text-center text-4xl mb-5">MY CONTACT</h2>
         <div class="contact-us text-slate-100 md:flex md:justify-around md:w-10/12 mx-auto bg-slate-900/50 rounded-lg p-5">
                 
-            <div class="get-in-touch md:w-5/12 pt-5">
+            <div class="get-in-touch md:w-5/12 pt-5" data-aos="flip-right" data-aos-duration="2000">
                 <h3 class="font-bold text-3xl font-mono">Get-in-Touch</h3>
                 <div class="contact-info py-3 my-5">
                     <p class="py-2 italic text-lg"><FontAwesomeIcon :icon="faLocationDot" size="lg"/> <span>Ikot Obio Nkan Road, Obot Idim, Ibesikpo Asutan Akwa Ibom State, Nigeria</span></p>
@@ -30,7 +30,7 @@
                     <p><a href="https://www.instagram.com/goodlucketi"><FontAwesomeIcon :icon="faInstagram" size="lg"/></a></p>
                 </div>
             </div>
-            <div class="send-message my-5 md:w-5/12 pt-5">
+            <div class="send-message my-5 md:w-5/12 pt-5" data-aos="flip-left" data-aos-duration="2000">
                 <h3 class="font-bold text-3xl font-mono">Send a Message</h3>
                 <hr class="w-2/6 h-1 bg-white">
                 <form class="message my-3 py-3 ">
