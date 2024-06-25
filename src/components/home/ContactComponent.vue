@@ -18,9 +18,9 @@
             <div class="get-in-touch md:w-5/12 pt-5" data-aos="flip-right" data-aos-duration="2000">
                 <h3 class="font-bold text-3xl font-mono">Get-in-Touch</h3>
                 <div class="contact-info py-3 my-5">
-                    <p class="py-2 italic text-lg"><FontAwesomeIcon :icon="faLocationDot" size="lg"/> <span>Ikot Obio Nkan Road, Obot Idim, Ibesikpo Asutan Akwa Ibom State, Nigeria</span></p>
-                    <p class="py-2 my-2 text-lg"><span><FontAwesomeIcon :icon="faEnvelope" size="lg"/> </span> goodlucketim94@gmail.com</p>
-                    <p class="py-2 my-2 text-lg"><span><FontAwesomeIcon :icon="faPhone" size="lg"/> </span> +234-9066600060</p>
+                    <p class="py-2 italic text-sm md:text-lg"><FontAwesomeIcon :icon="faLocationDot" size="lg"/> <span>Ikot Obio Nkan Road, Obot Idim, Ibesikpo Asutan Akwa Ibom State, Nigeria</span></p>
+                    <p class="py-2 my-2 text-sm md:text-lg"><span><FontAwesomeIcon :icon="faEnvelope" size="lg"/> </span> goodlucketim94@gmail.com</p>
+                    <p class="py-2 my-2 text-sm md:text-lg"><span><FontAwesomeIcon :icon="faPhone" size="lg"/> </span> +234-9066600060</p>
                 </div>
                 <div class="socials flex gap-2">
                     <p><a href="https://www.facebook.com/goodlucketi"><FontAwesomeIcon :icon="faFacebook" size="lg"/></a></p>
