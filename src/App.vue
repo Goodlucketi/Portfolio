@@ -8,7 +8,10 @@ import { ref } from 'vue';
     const navActive = ref(false)
 
     const  toggleNavBar = ()=> {
+      console.log('Before toggle:', navActive.value);
         navActive.value = !navActive.value
+      console.log('After toggle:', navActive.value);
+
     }
 </script>
 
