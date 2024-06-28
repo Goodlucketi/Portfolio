@@ -9,7 +9,6 @@ import { ref } from 'vue';
 
     const  toggleNavBar = ()=> {
         navActive.value = !navActive.value
-        // console.log('clicked');
     }
 </script>
 
