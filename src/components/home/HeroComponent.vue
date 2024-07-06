@@ -8,7 +8,7 @@
         <div class="hero h-screen text-slate-200">
             <div class="hero-txt py-48 w-11/12 md:py-60 md:w-9/12 mx-auto text-center">
                 <h1 class="text-4xl my-5 md:text-5xl font-bold font-mono drop-shadow-[0_3px_3px_rgba(255,255,255,0.35)]">I am Mfoniso Fabian</h1>
-                <p class="font-mono my-5 text-lg md:text-2xl italic">Software Developer <br><span class="text-orange-600">CEO Meln Hub</span></p>
+                <p class="font-mono my-5 text-lg md:text-2xl italic">Software Developer <br><span class="text-orange-600">Founder Meln Hub</span></p>
             </div>
         </div>
     </header>

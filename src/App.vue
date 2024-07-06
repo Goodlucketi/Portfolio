@@ -21,7 +21,7 @@ import { ref } from 'vue';
       <div class="logo">
         <h2 class="p-1 font-mono text-xl">Mfoniso Fabian</h2>
       </div>
-      <div :class="['links absolute -z-10 md:z-10 top-0 right-0 bg-slate-900/75 md:bg-transparent p-5 pt-24 md:pt-0 h-screen md:h-0 w-7/12 md:relative md:block',{ hidden:!navActive }]">
+      <div :class="['links absolute -z-10 md:z-10 top-0 right-0 bg-slate-900/75 md:bg-transparent p-5 pt-24 md:pt-0 h-screen md:h-0 w-8/12 md:relative md:block md:w-4/12',{ hidden:!navActive }]">
         <router-link to="/" class="mx-4 mb-5 block md:inline">Home</router-link>
         <router-link to="/" class="mx-4 mb-5 block md:inline">About</router-link>
         <router-link to="/" class="mx-4 mb-5 block md:inline">Projects</router-link>
